@@ -1,0 +1,24 @@
+// TODO: .banner .nav li {}
+// TODO: .banner .nav a {}
+
+.figaro-nav {
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    .figaro-nav-container {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .figaro-logo {
+            color: $figaro-purple;
+        }
+        .navbar-collapse {
+            width: auto;
+        }
+        .figaro-nav-list {
+            .nav-item .nav-link {
+                color: $figaro-purple;
+            }
+        }
+    }
+}

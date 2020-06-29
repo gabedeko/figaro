@@ -1,0 +1,9 @@
+.figaro-btn-1 {
+    background-color: $figaro-yellow;
+    border-radius: 0;
+    border: none;
+    &:hover {
+        background-color: $figaro-yellow;
+        color: $figaro-purple;
+    }
+}

@@ -1,0 +1,42 @@
+.figaro-slider-container {
+    .row {
+        .col-md-3 {
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.figaro-slider-row {
+    //width: 100%;
+    height: 100vh;
+    .slick-list {
+        height:100%;
+        .slick-track {
+            height:100%;
+            .figaro-slider {
+                padding: 8px;
+                height: 100%;
+                width: 27.5vw !important;
+                @media (max-width: 991.98px) { 
+                    width: 40vw !important;
+                }
+                .figaro-slider-img {
+                   height: 80%;
+                   width: 100%;
+                   background-size: cover;
+                    background-position: 50% 50%;
+                }
+                .figaro-slider-txt {
+                    .figaro-silder-title, .figaro-slider-desc {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+    
+}

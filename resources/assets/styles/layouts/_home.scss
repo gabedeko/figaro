@@ -1,0 +1,62 @@
+.landing-wrapper {
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .landing-wrapper-container {
+        width: 50%;
+        text-align: center;
+        .landing-wrapper-title {
+            color: $white;
+        }
+        hr {
+            color: $white;
+        }
+        .leading-wrapper-copy {
+            color: $white;
+        }
+    }
+}
+
+.fiaro-mod-1 {
+    height: 100vh;
+    .row {
+        height: 100%;
+        .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5 {
+            padding: 8px;
+            .figaro-mod-1-img {
+                width: 100%;
+                height: 64%;
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+            .figaro-mod-1-txt {
+                text-align:center;
+            }
+            .figaro-btn-container {
+                text-align:center;
+                
+            }
+        }
+    }
+}
+
+.figaro-welcome {
+    height: 100vh;
+    background-color: $figaro-pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .figaro-welcome-content {
+        width: 80%;
+        .figaro-welcome-title, .figaro-welcome-msg {
+            text-align: center;
+            color: $white;
+        }
+    }
+    
+}
