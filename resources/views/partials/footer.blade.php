@@ -1,4 +1,4 @@
-<footer class="content-info figaro-footer container-fluid">
+<footer class="content-info figaro-footer container-fluid mt-5">
   <div class="row">
     <div class="col-sm">
       <h3 class="footer-title">About us</h3>

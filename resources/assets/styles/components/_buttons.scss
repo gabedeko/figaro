@@ -2,8 +2,42 @@
     background-color: $figaro-yellow;
     border-radius: 0;
     border: none;
+    box-shadow: none;
+    outline: none;
     &:hover {
         background-color: $figaro-yellow;
         color: $figaro-purple;
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+    &:focus {
+        background-color: $figaro-yellow;
+        color: $figaro-purple;
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+    &:active {
+        background-color: $figaro-yellow;
+        color: $figaro-purple;
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.figaro-facial-tabs {
+    .nav-item .nav-link {
+        color: $figaro-purple;
+        background-color: none;
+        border-radius: 0;
+        text-align: right;
+        &:hover {
+            color: $figaro-pink;
+        }
+        &.active {
+            background-color: $figaro-yellow;
+        }
     }
 }

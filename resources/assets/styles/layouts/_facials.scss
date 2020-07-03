@@ -1,0 +1,106 @@
+.facial-top {
+    height: 20vh;
+    .row {
+        height: 100%;
+        .facial-top-left {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .facial-top-right {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    }
+}
+
+.facial-mid {
+    height: 80vh;
+    .row {
+        height: 100%;
+        .facial-mid-left {
+            height: 100%;
+            .tab-pane {
+                display: none;
+                &.active {
+                    display: flex;
+                    .facial-mid-left-img {
+                        height: 100%;
+                        background-size: cover;
+                        background-position: 50% 50%;
+                    }
+                    .facial-mid-left-desc {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        .btn-container {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .facial-mid-right {
+            height: 100%;
+        }
+    }
+}
+
+.facial-btm {
+    height: 80vh;
+    .facial-btm-div {
+        height:40%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .facial-btm-title {
+            display: none;
+            &.animate__fadeIn {
+                display: block;
+            }
+        }
+    }
+    .facial-btm-info {
+        height: 60%;
+        .facial-btm-info-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .facial-btm-info-left-container {
+                display: none;
+                &.animate__fadeIn {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .list-group {
+                .list-group-item {
+                    //text-align: center;
+                }
+            }
+
+        }
+        .facial-btm-info-right {
+            .facial-process-img {
+                display: none;
+                &.animate__fadeIn {
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "~slick-carousel/slick/slick.scss";
 @import "~slick-carousel/slick/slick-theme.scss";
+@import "~animate.css/animate.css";
 
 @import "common/variables";
 
@@ -21,13 +22,10 @@
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
-@import "components/wp-classes";
 @import "components/slider";
 @import "layouts/home";
 @import "layouts/header";
-@import "layouts/sidebar";
 @import "layouts/footer";
-@import "layouts/pages";
+@import "layouts/facials";
 @import "layouts/posts";
-@import "layouts/tinymce";
 @import "layouts/modules";

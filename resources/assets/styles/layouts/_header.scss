@@ -3,8 +3,9 @@
 
 .figaro-nav {
     width: 100%;
-    position: absolute;
+    //position: absolute;
     background-color: transparent;
+    transition: all .3s ease-in-out;
     .figaro-nav-container {
         display:flex;
         flex-direction: row;
@@ -18,7 +19,21 @@
         .figaro-nav-list {
             .nav-item .nav-link {
                 color: $figaro-purple;
+                &:hover {
+                    color: $figaro-pink;
+                }
             }
         }
+    }
+    &.not-home {
+        //position: static;
+        background-color: $white;
+        border-bottom: 2px solid $figaro-pink;
+        transition: all .3s ease-in-out;
+    }
+    &.scroll {
+        background-color: $white;
+        border-bottom: 2px solid $figaro-pink;
+        transition: all .3s ease-in-out;
     }
 }

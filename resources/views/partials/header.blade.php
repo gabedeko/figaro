@@ -9,9 +9,15 @@
       </nav>
     </div>
   */ ?>
-  <nav class="figaro-nav navbar navbar-expand-lg">
+  
+  <nav class="figaro-nav navbar navbar-expand-lg fixed-top
+  <?php /*Add class .not-home if page is not homepage*/ ?>
+  <?php /* if(!is_front_page() && !is_home()): ?>
+  not-home
+  <?php endif; */ ?>
+  ">
   <div class="figaro-nav-container container-fluid">
-    <a class="navbar-brand figaro-logo" href="#">LOGO</a>
+    <a class="navbar-brand figaro-logo" href="/">LOGO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -34,9 +34,10 @@ body, p, a, ol, ul, li, caption, div {
 	color: $figaro-purple;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'iAWriterQuattroS-Bold';
+	font-family: 'iAWriterQuattroS-Regular';
 	color: $figaro-purple;
 	text-transform: none;
+	font-weight: 900;
 }
 
 a {
