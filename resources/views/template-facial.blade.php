@@ -31,7 +31,7 @@
                             <h3>$85</h3>
                             <p>Vivamus elementum consectetur rutrum. Cras pellentesque condimentum leo, eu viverra ante lacinia sit amet. Nulla facilisi. Ut vel scelerisque quam. Etiam tincidunt posuere enim, dapibus imperdiet lacus eleifend quis. Donec tempor nisl tellus, eu porta dui elementum cursus. Donec quis orci dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             <div class="btn-container">
-                                <button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button>
+                            <a href="/facials/glow"><button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button></a>
                             </div>
                         </div>
                 </div>
@@ -43,7 +43,7 @@
                             <h3>$85</h3>
                             <p>Vivamus elementum consectetur rutrum. Cras pellentesque condimentum leo, eu viverra ante lacinia sit amet. Nulla facilisi. Ut vel scelerisque quam. Etiam tincidunt posuere enim, dapibus imperdiet lacus eleifend quis. Donec tempor nisl tellus, eu porta dui elementum cursus. Donec quis orci dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             <div class="btn-container">
-                                <button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button>
+                                <a href="/facials/glow"><button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button></a>
                             </div>
                         </div>
                 </div>
@@ -55,7 +55,7 @@
                             <h3>$85</h3>
                             <p>Vivamus elementum consectetur rutrum. Cras pellentesque condimentum leo, eu viverra ante lacinia sit amet. Nulla facilisi. Ut vel scelerisque quam. Etiam tincidunt posuere enim, dapibus imperdiet lacus eleifend quis. Donec tempor nisl tellus, eu porta dui elementum cursus. Donec quis orci dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             <div class="btn-container">
-                                <button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button>
+                            <a href="/facials/glow"><button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button></a>
                             </div>
                         </div>
                 </div>
@@ -67,7 +67,7 @@
                             <h3>$85</h3>
                             <p>Vivamus elementum consectetur rutrum. Cras pellentesque condimentum leo, eu viverra ante lacinia sit amet. Nulla facilisi. Ut vel scelerisque quam. Etiam tincidunt posuere enim, dapibus imperdiet lacus eleifend quis. Donec tempor nisl tellus, eu porta dui elementum cursus. Donec quis orci dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             <div class="btn-container">
-                                <button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button>
+                            <a href="/facials/glow"><button type="button" class="btn btn-primary btn-lg figaro-btn-1">Book Appointment</button></a>
                             </div>
                         </div>
                 </div>

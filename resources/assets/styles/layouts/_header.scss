@@ -18,9 +18,11 @@
         }
         .figaro-nav-list {
             .nav-item .nav-link {
-                color: $figaro-purple;
+                color: $figaro-pink;
+                transition: all .3s ease-in-out;
                 &:hover {
-                    color: $figaro-pink;
+                    color: $figaro-purple;
+                    transition: all .3s ease-in-out;
                 }
             }
         }
@@ -35,5 +37,17 @@
         background-color: $white;
         border-bottom: 2px solid $figaro-pink;
         transition: all .3s ease-in-out;
+        .figaro-nav-container {
+            .figaro-nav-list {
+                .nav-item .nav-link {
+                    color: $figaro-purple;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        color: $figaro-pink;
+                        transition: all .3s ease-in-out;
+                    }
+                }
+            }
+        }
     }
 }

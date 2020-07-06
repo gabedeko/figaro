@@ -26,6 +26,51 @@
         outline: none;
     }
 }
+.figaro-btn-2 {
+    background-color: transparent;
+    border-radius: 0;
+    color: $figaro-purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid $figaro-purple;
+    box-shadow: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+    &:hover {
+        background-color: transparent;
+        color: $figaro-pink;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid $figaro-pink;
+        box-shadow: none;
+        outline: none;
+        transition: all .3s ease-in-out;
+    }
+    &:focus {
+        background-color: transparent;
+        color: $figaro-pink;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid $figaro-pink;
+        box-shadow: none;
+        outline: none;
+        transition: all .3s ease-in-out;
+    }
+    &:active {
+        background-color: transparent;
+        color: $figaro-pink;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid $figaro-pink;
+        box-shadow: none;
+        outline: none;
+        transition: all .3s ease-in-out;
+    }
+}
 
 .figaro-facial-tabs {
     .nav-item .nav-link {

@@ -1,0 +1,19 @@
+.book-container {
+    min-height: 100vh;
+    .book-row {
+        height: 100%;
+        .book-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .book-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

@@ -9,7 +9,7 @@
     @include('partials.page-header')
     <?php /*@include('partials.content-page')*/ ?>
 
-<div class="figaro-hero" style="background-image:url(@asset('images/placeholder/figaro_placeholder_21.jpg'))">
+<div class="figaro-hero" style="background-image:url(@asset('images/placeholder/figaro_placeholder_23.jpg'))">
     <div class="figaro-hero-container">
         <h1 class="display-4 figaro-hero-title">Products</h1>
         <hr class="my-3">

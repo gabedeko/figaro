@@ -24,16 +24,16 @@
     <div class="collapse navbar-collapse figaro-collapse" id="navbarNav">
       <ul class="navbar-nav figaro-nav-list">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Book</a>
+          <a class="nav-link" aria-current="page" href="/facials">Book</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
+          <a class="nav-link" href="/store">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Regimen</a>
+          <a class="nav-link" href="/blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">About</a>
+          <a class="nav-link " href="/about">About</a>
         </li>
       </ul>
     </div>

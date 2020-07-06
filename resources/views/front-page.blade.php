@@ -24,28 +24,28 @@
     </div>
     <div class="col-md-9">
         <div class="container-fluid figaro-slider-row">
-            <a class="figaro-slider" href="">
+            <a class="figaro-slider" href="/facials">
                 <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_4.jpg'))"></div>
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Glow</h3>
                     <p class="figaro-slider-desc">Melanin friendly treatment...</p>
                 </div>
             </a>
-            <a class="figaro-slider" href="">
+            <a class="figaro-slider" href="/facials">
                 <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_2.jpg'))"></div>
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Reset</h3>
                     <p class="figaro-slider-desc">Deep pore cleansing facial...</p>
                 </div>
             </a>
-            <a class="figaro-slider" href="">
+            <a class="figaro-slider" href="/facials">
                 <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_17.jpg'))"></div>
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Baby Face</h3>
                     <p class="figaro-slider-desc">A deep tissue massage...</p>
                 </div>
             </a>
-            <a class="figaro-slider" href="">
+            <a class="figaro-slider" href="/facials">
                 <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_7.jpg'))"></div>
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Relax</h3>
