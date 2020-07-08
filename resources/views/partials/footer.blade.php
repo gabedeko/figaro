@@ -4,18 +4,9 @@
       <h3 class="footer-title">About us</h3>
       <ul class="list-group">
         <li class="list-group-item">about ff</li>
-        <li class="list-group-item">regimen</li>
-        <li class="list-group-item">shop all</li>
-      </ul>
-    </div>
-    <div class="col-sm">
-      <h3 class="footer-title">Customer Service</h3>
-      <ul class="list-group">
         <li class="list-group-item">faqs</li>
-        <li class="list-group-item">returns</li>
         <li class="list-group-item">contact us</li>
       </ul>
-
     </div>
     <div class="col-sm">
       <h3 class="footer-title">Connect</h3>
@@ -32,7 +23,7 @@
 
     </div>
   </div>
-  <div class="row">
+  <div class="row justify-content-md-center">
     <caption>© 2020 Figaro Facials. All Rights Reserved.</caption>
   </div>
   <?php /*

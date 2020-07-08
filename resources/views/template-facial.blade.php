@@ -11,18 +11,33 @@
 
     <div class="facial-top container-fluid">
         <div class="row">
-            <div class="col-md facial-top-left">
-                <p class="body-3">Facials / Glow</p>
-                
-            </div>
             <div class="col-md facial-top-right">
                 <p class="body-2">All</p>
+            </div>
+            <div class="col-md facial-top-left">
+                <p class="body-3">Facials / Glow</p>
             </div>
         </div>
     </div>
     <div class="facial-mid container-fluid">
         <div class="row">
-            <div class="col-md facial-mid-left tab-content">
+        <div class="col-md-2 col-md-push facial-mid-right">
+                <ul class="nav flex-column nav-pills figaro-facial-tabs" id="figaro-facial-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="facial-tab-0" data-toggle="tab" href="#facial-tab-pane-0" role="tab" aria-controls="facial-tab-0" aria-selected="true">Glow</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="facial-tab-1" data-toggle="tab" href="#facial-tab-pane-1" role="tab" aria-controls="facial-tab-1" aria-selected="false">Reset</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="facial-tab-2" data-toggle="tab" href="#facial-tab-pane-2" role="tab" aria-controls="facial-tab-2" aria-selected="false">Baby Face</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="facial-tab-3" data-toggle="tab" href="#facial-tab-pane-3" role="tab" aria-controls="facial-tab-3" aria-selected="false">Relax</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md col-md-push-2 facial-mid-left tab-content">
                 <div class="tab-pane fade show active row" id="facial-tab-pane-0" role="tabpanel" aria-labelledby="facial-tab-0">
                         <div class="col-sm-7 facial-mid-left-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_4.jpg'))"></div>
                         <div class="col-sm-5 facial-mid-left-desc">
@@ -72,23 +87,7 @@
                         </div>
                 </div>
             </div>
-
-            <div class="col-md-2 facial-mid-right">
-                <ul class="nav flex-column nav-pills figaro-facial-tabs" id="figaro-facial-tabs" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="facial-tab-0" data-toggle="tab" href="#facial-tab-pane-0" role="tab" aria-controls="facial-tab-0" aria-selected="true">Glow</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="facial-tab-1" data-toggle="tab" href="#facial-tab-pane-1" role="tab" aria-controls="facial-tab-1" aria-selected="false">Reset</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="facial-tab-2" data-toggle="tab" href="#facial-tab-pane-2" role="tab" aria-controls="facial-tab-2" aria-selected="false">Baby Face</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="facial-tab-3" data-toggle="tab" href="#facial-tab-pane-3" role="tab" aria-controls="facial-tab-3" aria-selected="false">Relax</a>
-                    </li>
-                </ul>
-            </div>
+            
         </div>
     </div>
     <div class="facial-btm container-fluid">

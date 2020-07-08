@@ -29,6 +29,7 @@
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Glow</h3>
                     <p class="figaro-slider-desc">Melanin friendly treatment...</p>
+                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
                 </div>
             </a>
             <a class="figaro-slider" href="/facials">
@@ -36,6 +37,7 @@
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Reset</h3>
                     <p class="figaro-slider-desc">Deep pore cleansing facial...</p>
+                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
                 </div>
             </a>
             <a class="figaro-slider" href="/facials">
@@ -43,6 +45,7 @@
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Baby Face</h3>
                     <p class="figaro-slider-desc">A deep tissue massage...</p>
+                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
                 </div>
             </a>
             <a class="figaro-slider" href="/facials">
@@ -50,6 +53,7 @@
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Relax</h3>
                     <p class="figaro-slider-desc">The stress relieving facial...</p>
+                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
                 </div>
             </a>
       </div>
