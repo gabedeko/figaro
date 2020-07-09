@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="figaro-hero" style="background-image:url(@asset('images/placeholder/figaro_placeholder_5.jpg'))">
+<div class="figaro-hero" style="background-image:url(@asset('images/placeholder/figaro_placeholder_1.jpg'))">
   <div class="figaro-hero-container">
     <h1 class="display-4 figaro-hero-title">Figaro Facials</h1>
     <hr class="my-3">
@@ -33,7 +33,7 @@
                 </div>
             </a>
             <a class="figaro-slider" href="/facials">
-                <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_2.jpg'))"></div>
+                <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_12.jpg'))"></div>
                 <div class="figaro-slider-txt">
                     <h3 class="figaro-slider-title">Reset</h3>
                     <p class="figaro-slider-desc">Deep pore cleansing facial...</p>
@@ -70,9 +70,9 @@
     <div class="col-md-5">
       <div class="figaro-mod-1-img figaro-mod-1-img-y" style="background-image:url(@asset('images/placeholder/figaro_placeholder_6.jpg'))"></div>
       <p class="figaro-mod-1-txt">Formulated with neo-bio ingridients to enhance ability to moisturize and protect skin barrier according to the humidity of the outside air and the skin condition. Relieving the redness with a gentle touch. </p>
-      <div class="figaro-btn-container" href="#">
+      <a class="figaro-btn-container" href="/store">
         <button type="button" class="btn btn-primary btn-lg figaro-btn-1">Shop All Products</button>
-      </div>
+      </a>
     </div>
     <div class="col-md-2">
       <div class="figaro-mod-1-img figaro-mod-1-img-z" style="background-image:url(@asset('images/placeholder/figaro_placeholder_3.jpg'))"></div>

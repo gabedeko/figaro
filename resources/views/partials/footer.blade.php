@@ -1,6 +1,6 @@
 <footer class="content-info figaro-footer container-fluid mt-5">
   <div class="row">
-    <div class="col-sm">
+    <div class="col">
       <h3 class="footer-title">About us</h3>
       <ul class="list-group">
         <li class="list-group-item">about ff</li>
@@ -8,7 +8,7 @@
         <li class="list-group-item">contact us</li>
       </ul>
     </div>
-    <div class="col-sm">
+    <div class="col">
       <h3 class="footer-title">Connect</h3>
       <p class="connect-txt">@figarofacials</p>
       <div class="share-icons">

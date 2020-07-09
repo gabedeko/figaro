@@ -11,8 +11,11 @@
         .facial-top-right {
             display: flex;
             flex-direction: row;
-            justify-content: flex-end;
+            justify-content: flex-start;
             align-items: flex-end;
+            @media (max-width: 767.98px) {
+                display: none;
+            }
         }
     }
 }
@@ -23,6 +26,9 @@
         height: 100%;
         .facial-mid-left {
             height: 100%;
+            @media (max-width: 767.98px) {
+                height: auto;
+            }
             .tab-pane {
                 display: none;
                 &.active {
@@ -40,6 +46,9 @@
                         .btn-container {
                             text-align: center;
                         }
+                        @media (max-width: 767.98px) {
+                            align-items: center;
+                        }
                     }
                 }
             }
@@ -47,14 +56,19 @@
         }
         .facial-mid-right {
             height: 100%;
+            @media (max-width: 767.98px) {
+                height: auto;
+            }
         }
     }
 }
 
 .facial-btm {
     height: 80vh;
+    @media (max-width: 767.98px) {
+        margin-top: 56vh;
+    }
     .facial-btm-div {
-        height:40%;
         height: 40%;
         display: flex;
         flex-direction: column;
@@ -65,6 +79,10 @@
             &.animate__fadeIn {
                 display: block;
             }
+        }
+        @media (max-width: 767.98px) {
+            text-align: center;
+            height: 28%;
         }
     }
     .facial-btm-info {
@@ -101,6 +119,15 @@
                     background-position: 50% 50%;
                 }
             }
+            @media (max-width: 767.98px) {
+                height: 64%;
+            }
         }
+    }
+}
+
+.facial-reviews {
+    @media (max-width: 767.98px) {
+        margin-top: 8vh;
     }
 }

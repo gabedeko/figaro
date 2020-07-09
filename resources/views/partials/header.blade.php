@@ -1,14 +1,4 @@
 <header class="banner">
-  <?php/*
-    <div class="container">
-      <a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
-      <nav class="nav-primary">
-        @if (has_nav_menu('primary_navigation'))
-          {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
-        @endif
-      </nav>
-    </div>
-  */ ?>
   
   <nav class="figaro-nav navbar navbar-expand-lg fixed-top
   <?php /*Add class .not-home if page is not homepage*/ ?>
@@ -24,10 +14,10 @@
     <div class="collapse navbar-collapse figaro-collapse" id="navbarNav">
       <ul class="navbar-nav figaro-nav-list">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/facials">Book</a>
+          <a class="nav-link" aria-current="page" href="/facials">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/store">Shop</a>
+          <a class="nav-link" href="/store">Store</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/blog">Blog</a>

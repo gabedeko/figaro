@@ -77,12 +77,16 @@
         color: $figaro-purple;
         background-color: none;
         border-radius: 0;
-        text-align: right;
+        text-align: left;
+        padding: 0.5rem 4px;
         &:hover {
             color: $figaro-pink;
         }
         &.active {
             background-color: $figaro-yellow;
+        }
+        @media (max-width: 767.98px) {
+            text-align: center;
         }
     }
 }
