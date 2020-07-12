@@ -40,12 +40,18 @@
                 background-position: 50% 50%;
                 &.figaro-mod-1-img-x {
                     height: 56%;
+                    @media (max-width: 767.98px) {
+                        height: 100%;
+                    }
                 }
                 &.figaro-mod-1-img-y {
                     height: 64%;
                 }
                 &.figaro-mod-1-img-z {
                     height: 32%;
+                    @media (max-width: 767.98px) {
+                        height: 100%;
+                    }
                 }
             }
             .figaro-mod-1-txt {

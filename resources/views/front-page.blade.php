@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="figaro-hero" style="background-image:url(@asset('images/placeholder/figaro_placeholder_1.jpg'))">
+<div class="figaro-hero" style="background-image:url(@asset('images/placeholder/figaro_placeholder_9.jpg'))">
   <div class="figaro-hero-container">
     <h1 class="display-4 figaro-hero-title">Figaro Facials</h1>
     <hr class="my-3">
@@ -24,30 +24,47 @@
     </div>
     <div class="col-md-9">
         <div class="container-fluid figaro-slider-row">
-            <a class="figaro-slider" href="/facials">
-                <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_4.jpg'))"></div>
-                <div class="figaro-slider-txt">
-                    <h3 class="figaro-slider-title">Glow</h3>
-                    <p class="figaro-slider-desc">Melanin friendly treatment...</p>
-                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
-                </div>
-            </a>
-            <a class="figaro-slider" href="/facials">
-                <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_12.jpg'))"></div>
-                <div class="figaro-slider-txt">
-                    <h3 class="figaro-slider-title">Reset</h3>
-                    <p class="figaro-slider-desc">Deep pore cleansing facial...</p>
-                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
-                </div>
-            </a>
-            <a class="figaro-slider" href="/facials">
-                <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_17.jpg'))"></div>
-                <div class="figaro-slider-txt">
-                    <h3 class="figaro-slider-title">Baby Face</h3>
-                    <p class="figaro-slider-desc">A deep tissue massage...</p>
-                    <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
-                </div>
-            </a>
+        <?php
+        // Check rows exists.
+        //IMPORTANT: local the page ID is 6 but live it is 5
+        if( have_rows('facial', 5) ):
+          // Loop through rows.
+          //IMPORTANT: local the page ID is 6 but live it is 5
+          while( have_rows('facial', 5) ) : the_row();
+
+              // Load sub field value.
+              $name = get_sub_field('name');
+              $price = get_sub_field('price');
+              $short_description = get_sub_field('short_description');
+              $long_description = get_sub_field('long_description');
+              $process = get_sub_field('process');
+              $main_image = get_sub_field('main_image');
+              $process_image = get_sub_field('process_image');
+              // Do something...
+              //echo $name;
+              ?>
+              <a class="figaro-slider" href="/facials">
+                  <div class="figaro-slider-img" style="background-image:url('<?php echo $main_image['url']; ?>')"></div>
+                  <div class="figaro-slider-txt">
+                      <h3 class="figaro-slider-title"><?php echo $name ?></h3>
+                      <p class="figaro-slider-desc"><?php echo $short_description ?></p>
+                      <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
+                  </div>
+              </a>
+              <?php
+
+
+          // End loop.
+          endwhile;
+
+        // No value.
+        else :
+          echo "nothing here :/";
+          // Do something...
+        endif;
+        ?>
+        <?php
+        /* Loop HTML Template
             <a class="figaro-slider" href="/facials">
                 <div class="figaro-slider-img" style="background-image:url(@asset('images/placeholder/figaro_placeholder_7.jpg'))"></div>
                 <div class="figaro-slider-txt">
@@ -56,6 +73,8 @@
                     <button type="button" class="btn btn-primary btn-lg figaro-btn-2">More Info ></button>
                 </div>
             </a>
+        */
+        ?>
       </div>
     </div>
   </div>

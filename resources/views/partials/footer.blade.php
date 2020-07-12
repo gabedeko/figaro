@@ -23,7 +23,7 @@
 
     </div>
   </div>
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-md-center figaro-copyright">
     <caption>© 2020 Figaro Facials. All Rights Reserved.</caption>
   </div>
   <?php /*
